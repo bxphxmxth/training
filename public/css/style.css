@@ -1,20 +1,34 @@
-#parent{
-    height: 75vh;
-    width: 75vw;
-    background: teal;
-    margin: auto;
-    position: relative;
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+border: red 3px solid;
+list-style: none;
+text-decoration: none;
+
+
 }
 
-#absolute{
-    background: orangered;
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    z-index: 5;
+.nav-list{
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+
 }
 
-p{
-    position: relative;
-    z-index:;
+nav.item{
+    margin-right: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.nav-item a{
+
+color: black;
+letter-spacing: 1.2px;
+
 }
